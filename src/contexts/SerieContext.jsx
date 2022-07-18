@@ -10,8 +10,7 @@ export function SerieContextProvider({ children }) {
   const [selectedSeason, setSelectedSeason] = useState("select");
   const [selectedEpisode, setSelectedEpisode] = useState({});
 
-  const initialURL =
-    "https://api.allorigins.win/raw?url=https://api.themoviedb.org/3/tv/1622-supernatural";
+  const initialURL = "https://api.themoviedb.org/3/tv/1622-supernatural";
   const params = {
     api_key: import.meta.env.VITE_API_KEY,
     language: "pt-BR",

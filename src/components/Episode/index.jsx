@@ -2,7 +2,7 @@ import { useSerie } from "../../hooks/useSerie";
 import { Container } from "./styles";
 
 export function Episode({ episode }) {
-  const image = `https://api.allorigins.win/raw?url=https://image.tmdb.org/t/p/original${episode.still_path}`;
+  const image = `https://image.tmdb.org/t/p/original${episode.still_path}`;
 
   const { selectedEpisode, setSelectedEpisode } = useSerie();
 
